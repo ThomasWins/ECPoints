@@ -1,6 +1,6 @@
 # Elliptic Curve Points Generator
 
-This Java program efficiently generates all points on an elliptic curve \(y^2 /(x^3 + ax + b) % p), leveraging an optimized algorithm for primes (p % 4 == 3). The algorithm computes solutions for (y) using the Legendre symbol and provides output in O(p) time complexity.
+Generates all points on an elliptic curve \(y^2 /(x^3 + ax + b) % p), leveraging an optimized algorithm for primes (p % 4 == 3). The algorithm computes solutions for (y) using the Legendre symbol and provides output in O(p) time complexity.
 
 ## Features
 - **Efficient point generation**: Implements an O(p) algorithm for generating all points on an elliptic curve.
